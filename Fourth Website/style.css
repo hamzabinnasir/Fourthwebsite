@@ -1,0 +1,438 @@
+body {
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Home Section */
+#home {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    right: 0px;
+    background-color: rgb(64, 78, 237);
+}
+
+#home::before {
+    background: url(background\ img.svg)no-repeat center center/cover;
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+
+.imagine {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 76%;
+    
+}
+
+.imagine h1 {
+    font-size: 70px;
+    color: white;
+    margin-bottom: 32px;
+}
+
+.imagine p {
+    color: white;
+    margin: 6px;
+}
+
+.buttons {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 430px;
+    width: 100%;
+}
+
+.buttons button {
+    margin: 6px;
+    padding: 12px 23px;
+    font-size: 18px;
+    border-radius: 22px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+    .navbar{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        margin-top: 25px;
+    }
+    #logo{
+        position: relative;
+        width: 120px;
+        left: 100px;
+        cursor: pointer;
+    }
+    .navbar button{
+        position: relative;
+        left: 170px;
+        background-color: white;
+        border: 2px solid white;
+        color: black;
+        padding: 9px 13px;
+        border-radius: 20px;
+        cursor: pointer;
+        transition: 0.5s;
+    }
+    .navbar button:hover{
+       color: blue;
+       box-shadow: 2px 2px 12px 12px blue;
+    }
+       
+    .navbar ul{
+        display: flex;
+    }
+    .navbar li{
+        list-style: none;
+        padding: 12px 23px; 
+    }
+    .navbar li a{
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        font-size: 14px;
+    }
+    .navbar li a:hover{
+        text-decoration: underline;
+       
+    }
+    
+
+#button1 {
+    border: 2px solid white;
+}
+
+#button1:hover {
+    color: blue;
+}
+
+#button2 {
+    background-color: rgb(49, 51, 56);
+    border: 2px solid rgb(49, 51, 56);
+    color: white;
+}
+
+#button2:hover {
+    background-color: rgb(86, 88, 92);
+    border: 2px solid rgb(86, 88, 92);
+}
+
+#home img {
+    position: absolute;
+}
+
+#img1 {
+    top: 302px;
+    left: -353px;
+}
+
+#img2 {
+    top: 294px;
+    right: -303px;
+}
+
+/* Second Section */
+#sec-section {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 800px;
+}
+
+.create {
+    display: flex;
+}
+
+.create div {
+    right: 60px;
+    top: 50px;
+    position: absolute;
+}
+
+.create div h1 {
+    font-size: 50px;
+    margin: 12px;
+}
+
+.create div p {
+    font-size: 18px;
+    margin: 12px;
+    color: rgb(59, 59, 59);
+}
+
+.create img {
+    position: absolute;
+    left: 40px;
+}
+
+/* Third Section */
+#third-section {
+    background-color: rgb(246, 246, 246);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 1350px;
+}
+
+.hanging {
+    display: flex;
+}
+
+.hanging img {
+    position: absolute;
+    right: 20px;
+    top: 100px;
+}
+
+.hanging div {
+    position: absolute;
+    top: 150px;
+    left: 100px;
+}
+
+.hanging h1 {
+    font-size: 50px;
+    margin: 12px;
+}
+
+.hanging p {
+    font-size: 18px;
+    margin: 12px;
+    color: rgb(59, 59, 59);
+}
+
+/* Fourth Section */
+#section4 {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 2200px;
+}
+
+.from-few {
+    display: flex;
+}
+
+.from-few div {
+    right: 60px;
+    top: 50px;
+    position: absolute;
+}
+
+.from-few div h1 {
+    font-size: 50px;
+    margin: 12px;
+}
+
+.from-few div p {
+    font-size: 18px;
+    margin: 12px;
+    color: rgb(59, 59, 59);
+}
+
+.from-few img {
+    position: absolute;
+    left: 40px;
+    width: 700px;
+}
+
+/* Fifth section */
+#sec-five {
+    position: absolute;
+    height: 220%;
+    width: 100%;
+    top: 2800px;
+    background-color: rgb(246, 246, 246);
+}
+
+.reliable {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: -100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.reliable div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.reliable div h1 {
+    font-size: 45px;
+    font-weight: bold;
+    margin: 12px;
+}
+
+.reliable div p {
+    font-size: 18px;
+    color: rgb(59, 59, 59);
+}
+
+.reliable img {
+    width: 1200px;
+    margin-top: 50px;
+}
+
+.ready {
+    margin-top: 100px;
+}
+
+#button3 {
+    padding: 12px 23px;
+    font-size: 18px;
+    border-radius: 22px;
+    margin-top: 40px;
+    border: 2px solid rgb(121, 131, 245);
+    background-color: rgb(121, 131, 245);
+    color: white;
+    transition: 0.5s;
+}
+
+#button3:hover {
+    background-color: rgb(135, 145, 250);
+    border: 2px solid rgb(135, 145, 250);
+    box-shadow: 2px 12px 12px rgb(128, 127, 127);
+}
+
+/* Last Section */
+#last-sec {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 4200px;
+    background-color: rgb(35, 39, 42);
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.eng {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item p {
+    color: blue;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.item li {
+    list-style: none;
+}
+
+.item li a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+.item li a:hover {
+    text-decoration: underline;
+}
+
+.item li {
+    padding: 10px;
+}
+
+.item div {
+    padding: 15px;
+}
+
+.eng select {
+    position: absolute;
+    left: 220px;
+    border: none;
+    background-color: rgb(35, 39, 42);
+    color: white;
+    cursor: pointer;
+
+}
+
+.eng h4 {
+    position: relative;
+    left: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.eng img {
+    width: 30px;
+    position: absolute;
+    left: 75px;
+    cursor: pointer;
+}
+
+#hrline {
+    height: 1px;
+    width: 90%;
+    border: none;
+    background-color: blue;
+    display: block;
+    margin: auto;
+    position: relative;
+    top: 30px;
+}
+
+#img8 {
+    width: 120px;
+    filter: 100%;
+    position: relative;
+    top: 60px;
+    left: 68px;
+    cursor: pointer;
+
+}
+
+#signup {
+    position: relative;
+    top: 50px;
+    left: 1070px;
+    padding: 9px 12px;
+    font-size: 14px;
+    border-radius: 22px;
+    background-color: rgb(121, 131, 245);
+    border: 2px solid rgb(121, 131, 245);
+    color: white;
+    cursor: pointer;
+}
+
+#signup:hover {
+    background-color: rgb(145, 153, 248);
+    border: 2px solid rgb(145, 153, 248);
+}
+
+.imgs img {
+    filter: invert(100%);
+    width: 30px;
+    cursor: pointer;
+}
